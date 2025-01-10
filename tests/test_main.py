@@ -1600,6 +1600,11 @@ def testNonAscii() -> None:
             {'style': 'numpy'},
             [],
         ),
+        (
+            '23_exception_from_class_constructor/case.py',
+            {'style': 'numpy'},
+            [],
+        ),
     ],
 )
 def testEdgeCases(
